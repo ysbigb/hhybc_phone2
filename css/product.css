@@ -1,0 +1,61 @@
+/*产品详情*/
+.mui-slider {
+  background-color: #ddd;
+  padding: 10% 0;
+}
+.pro-content h1 {
+  margin: 3% 5% 0 5%;
+  border-bottom: 1px dotted #dbba86;
+  padding-bottom: 3%;
+  font: normal 30px/1em "微软雅黑";
+}
+.pro-content .pro-c-p {
+  text-indent: 2em;
+  color: #9a8a6e;
+  font: normal 16px/1.5em "微软雅黑";
+  padding: 2% 5%;
+}
+/*产品列表 */
+.pro-l-content {
+  padding: 0 1%;
+}
+.pro-l-content ul {
+  padding: 0px;
+  margin: 0;
+}
+.pro-l-content ul li {
+  float: left;
+  margin: 4% 0 0 4%;
+  list-style: none;
+  width: 44%;
+  outline: 1px solid #fbe5cf;
+  overflow: hidden;
+}
+.pro-l-content ul li img {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #fbe5cf;
+  padding: 15% 0;
+}
+.pro-l-content ul li h1 {
+  font: normal 1.5em/1.5em "微软雅黑";
+  color: #461700;
+  padding-left: 8%;
+}
+.pro-l-content ul li p {
+  color: #938264;
+  font: normal 0.8em/1.2em "微软雅黑";
+  overflow: hidden;
+  height: 2.5em;
+  width: 90%;
+  padding-left: 8%;
+  margin-bottom: 10%;
+}
+.pro-l-content ul li a {
+  display: block;
+  border-top: 1px solid #fbe5cf;
+  margin: 0 8%;
+  font: normal 1em/2.8em "微软雅黑";
+  color: #f3b864;
+}
+/*# sourceMappingURL=product.css.map */

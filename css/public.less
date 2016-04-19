@@ -1,0 +1,157 @@
+@font-orange:#f8ba81;
+@font-coffe:#938264;
+@font-titRed:#7b000a;
+/*覆盖原有样式*/
+.mui-icon-back:before, .mui-icon-left-nav:before{
+    color: #333;
+}
+.mui-icon-bars:before {
+    content: '\e563';
+    color: #333;
+}
+.mui-title {
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2.3em;
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 0 -10px;
+    padding: 0px 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #000;
+}
+.mui-bar{
+    height: 44px;
+    background-color: #fff;
+}
+.mui-bar-nav~.mui-content {
+    padding-top: 44px;
+}
+.mui-bar .mui-icon {
+    font-size: 24px;
+    position: relative;
+    z-index: 20;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mui-off-canvas-right {
+    color: #fff;
+    background: transparent url(../images/offcanvas-bg.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.title#logo {
+    margin: 6% 0% 0% 6%;
+    img{
+        width:40%;
+    }
+}
+/*accordionc菜单*/
+.mui-table-view{
+    background-color: transparent;
+    .mui-collapse-content{
+        a{
+            display: block;
+            font: normal 0.9em/2.2em "微软雅黑";
+            color: white;
+            padding-left: 8px;
+        }
+    }
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: -5px -8px;
+    padding: inherit;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: @font-orange;
+    font-family: "微软雅黑";
+}
+.mui-table-view:before, .mui-table-view:after{
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: transparent;
+    top: -1px;
+}
+
+.mui-table-view-cell:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: transparent;
+}
+.mui-table-view-cell.mui-active{
+    background-color: transparent;
+}
+.mui-table-view-cell.mui-collapse .mui-collapse-content {
+    position: relative;
+    display: none;
+    overflow: hidden;
+    margin: 11px -15px -11px;
+    padding: 8px 15px;
+    -webkit-transition: height .35s ease;
+    -o-transition: height .35s ease;
+    transition: height .35s ease;
+    background: rgba(0,0,0,0.2);
+}
+//.mui-table-view-cell.mui-collapse>.mui-navigate-left:after, .mui-table-view-cell.mui-collapse>.mui-navigate-left:not(.no-icon):after {
+//  content: '\e409';
+//  color:@font-orange;
+//  float: right;
+//}
+//.mui-table-view-cell.mui-collapse.mui-active>.mui-navigate-left:after, .mui-table-view-cell.mui-collapse.mui-active>.mui-push-left:after {
+//  content: '\e410';
+//}
+.mui-icon-back:before, .mui-icon-left-nav:before {
+    content: '\e471';
+}
+
+.mui-table-view-cell.mui-collapse>.mui-navigate-right:not(.no-icon):after {
+    content: '\e409';
+    color: @font-orange;
+}
+.mui-table-view-cell.mui-collapse>.mui-navigate-right.no-icon:after {
+    content: '';
+    color: @font-orange;
+}
+.mui-table-view-cell.mui-collapse.mui-active>.mui-navigate-right:not(.no-icon):after {
+    content: '\e410';
+    color: @font-orange;
+}
+.mui-navigate-right{
+    text-align: left;
+}
+.mui-collapse-content{
+    text-align: left;
+}
+/*脚部*/
+.pb-footer{
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 44px;
+    background: transparent url(../images/footerbg-phone.png) 0 0 no-repeat;
+    padding-top: 6px;
+    p{
+        text-align: center;
+        font: normal 12px/1em"微软雅黑";
+        color: white;
+    }
+}
+.mui-content{
+    background-color: white;
+}

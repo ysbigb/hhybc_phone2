@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+<div class="mui-off-canvas-wrap mui-draggable ">
+  <!-- 主页面容器 -->
+  <div class="mui-inner-wrap">
+     <!-- 菜单容器 -->
+    <aside class="mui-off-canvas-left ">
+      <div class="mui-scroll-wrapper">
+        <div class="mui-scroll">
+          <!-- 菜单具体展示内容 -->
+             <ul class="mui-table-view ">
+             					<div class="title" id="logo"><img src="images/off-logo.png"/></div>
+								<li class="mui-table-view-cell mui-collapse">
+									<a class="mui-navigate-right no-icon" href="#">首页</a>
+									<!--<div class="mui-collapse-content">
+										
+									</div>-->
+								</li>
+								<li class="mui-table-view-cell mui-collapse">
+									<a class="mui-navigate-right" href="#">关于我们</a>
+									<div class="mui-collapse-content">
+										<a href="http://www.baidu.com">价值体系</a>
+										<a href="">管理团队</a>
+										<a href="">文化建设</a>
+									</div>
+								</li>
+								<li class="mui-table-view-cell mui-collapse">
+									<a class="mui-navigate-right" href="#">新闻动态</a>
+									<div class="mui-collapse-content">
+										<a href="">公司动态</a>
+										<a href="">行业新闻</a>
+										<a href="">政策法规</a>
+										<a href="">公告栏</a>
+									</div>
+								</li>
+								<li class="mui-table-view-cell mui-collapse">
+									<a class="mui-navigate-right" href="#">研发中心</a>
+									<div class="mui-collapse-content">
+										<a href="">研发团队</a>
+										<a href="">研发过程展示</a>
+									</div>
+								</li>
+								<li class="mui-table-view-cell mui-collapse">
+									<a class="mui-navigate-right" href="#">生态基地</a>
+									<div class="mui-collapse-content">
+										<a href="">有机示范基地</a>
+										<a href="">零污染生态环境</a>
+									</div>
+								</li>
+								
+								<li class="mui-table-view-cell mui-collapse">
+									<a class="mui-navigate-right" href="#">产品中心</a>
+									<div class="mui-collapse-content">
+										<a href="product_detail.html">分类1</a>
+										<a href="">分类2</a>
+										<a href="">分类3</a>
+										<a href="">分类4</a>
+
+									</div>
+								</li>
+								<li class="mui-table-view-cell mui-collapse">
+									<a class="mui-navigate-right" href="#">合作信息</a>
+									<div class="mui-collapse-content">
+										<a href="">产品合作信息</a>
+									</div>
+								</li>
+								<li class="mui-table-view-cell mui-collapse">
+									<a class="mui-navigate-right" href="#">招贤纳士</a>
+									<div class="mui-collapse-content">
+										<a href="">福利待遇</a>
+										<a href="">招聘岗位</a>
+									</div>
+								</li>
+								<li class="mui-table-view-cell mui-collapse">
+									<a class="mui-navigate-right no-icon" href="contactus.html">联系我们</a>
+									<!--<div class="mui-collapse-content">
+										
+									</div>-->
+								</li>							
+				</ul>
+        </div>
+      </div>
+    </aside>
+    <!-- 主页面标题 -->
+    <header class="mui-bar mui-bar-nav">
+	  <a class="mui-icon mui-action-menu iconfont icon-jfenlei2 mui-pull-right" style="color:black"></a>
+      <a class="mui-action-back mui-icon mui-icon-back mui-pull-left"></a>
+      <h1 class="mui-title">标题</h1>
+    </header>
+    <!-- 主页面内容容器 -->
+    <div class="mui-content mui-scroll-wrapper">
+      <div class="mui-scroll">
+        <!-- 主界面具体展示内容 -->
+        
+      </div>
+    </div>  
+  </div>
+</div>
+<script src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" charset="UTF-8">
+      	   mui('.mui-off-canvas-wrap').offCanvas('hide');
+      	   $(function(){
+      	   	   $(".mui-action-menu").bind("click",function(){
+      	   	   	     mui('.mui-off-canvas-wrap').offCanvas('show');
+      	   	   });
+      	   });
+      	   mui('"mui-off-canvas-left ').scroll();
+      	   mui('.mui-off-canvas-wrap').scroll();
+		   mui('.mui-scroll-wrapper').scroll();
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.content-align {
+  text-align: center;
+  margin-top: 5%;
+}
+.content-align p {
+  color: #938264;
+  font: normal 16px/2em "微软雅黑";
+}
+.con-content {
+  padding-bottom: 64px;
+}
+.con-content .map {
+  min-height: 340px;
+  background-image: url(../images/map-phone.png);
+  background-position: center;
+}
+/*# sourceMappingURL=contact.css.map */
