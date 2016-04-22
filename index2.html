@@ -9,6 +9,7 @@
 		<link href="css/mui.min.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/index2.css"/>
 		<script type="text/javascript" charset="utf-8">
 			mui.init();
 		</script>
@@ -99,7 +100,7 @@
 				<!-- 主页面标题 -->
 				<header class="mui-bar mui-bar-nav">
 					<a class="mui-icon mui-action-menu iconfont icon-jfenlei2 mui-pull-right" style="color:black"></a>
-					<a class=" mui-pull-left"><img src="images/index-logo.png" alt="" / style="width: 100%;"></a>
+					<a class=" mui-pull-left"><img id="logo-a" src="images/index-logo.png" alt="" / ></a>
 					<!--<h1 class="mui-title">标题</h1>-->
 				</header>
 				<footer class="mui-bar  pb-footer">
@@ -111,7 +112,186 @@
 				<div class="mui-content mui-scroll-wrapper">
 					<div class="mui-scroll">
 						<!-- 主界面具体展示内容 -->
-
+						<div class="section1">
+							<div class="mui-slider" id="secban1">
+								  <div class="mui-slider-group mui-slider-loop" >
+								<!--支持循环，需要重复图片节点-->
+										<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/banner.png"/></a></div>
+										<div class="mui-slider-item"><a href="#"><img src="images/banner.png"/></a></div>
+										<div class="mui-slider-item"><a href="#"><img src="images/banner.png"/></a></div>										<!--支持循环，需要重复图片节点-->
+										<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/banner.png"/></a></div>
+								  </div>
+							</div>
+								<script type="text/javascript">
+									var gallery = mui('#secban1');
+										gallery.slider({
+										  interval:3000//自动轮播周期，若为0则不自动播放，默认为0；
+										});
+								</script>
+						</div>
+						<div class="section2">
+							<div class="in-content">
+								<h1><img src="images/about-logo.png"/ style="width: 43%;"></h1>
+								<p>
+									云南云百草生物技术有限公司 以生物学和中医中药为理论基础，
+									以生物技术为手段，以中草药生物资源可持续利用为前提，
+									依托云南丰富的中草药生物资源，
+									专门从事有机食品、功能食品、
+									健康食品和中草药以及相关生物技术产品的研发和生产，
+									并进行商业化经营...
+									
+								</p>
+								<div class="mui-clearfix" style="margin-top: 5%;">
+									<a href="" >了解更多我们的故事</a><i></i>
+								</div>
+							</div>
+							
+						</div>
+						<div class="section3">
+							<div class="in-content">
+								<div class="sec3-header mui-clearfix">
+									<img src="images/sec3-logo.png" alt="" style="width: 43%;"/>
+									<a href="" class="mui-pull-right" style="width: 45%;">查看更多新闻动态></a>
+								</div>
+								
+								<div class="mui-slider" id="secban3">
+								  <div class="mui-slider-group mui-slider-loop">
+								    <!--支持循环，需要重复图片节点-->
+								    <div class="mui-slider-item mui-slider-item-duplicate">
+								    	<ul>
+								    		<li>
+								    			<h1>为社会提供最好的服务，从中求得公司真正意...</h1>
+								    			<p>云南云百草生物技术有限公司 以生物学和中医中药为理论基础，</p>
+								    			<h2>16-2-28 </h2>
+								    			
+								    			<h1>为社会提供最好的服务，从中求得公司真正意...</h1>
+								    			<p>云南云百草生物技术有限公司 以生物学和中医中药为理论基础，</p>
+								    			<h2>16-2-28 </h2>								    			
+								    		</li>
+								    	</ul>
+								    	
+								    </div>
+								    <div class="mui-slider-item">
+								    	<ul>
+								    		<li>
+								    			<h1>为社会提供最好的服务，从中求得公司真正意...</h1>
+								    			<p>云南云百草生物技术有限公司 以生物学和中医中药为理论基础，</p>
+								    			<h2>16-2-28 </h2>
+								    			
+								    			<h1>为社会提供最好的服务，从中求得公司真正意...</h1>
+								    			<p>云南云百草生物技术有限公司 以生物学和中医中药为理论基础，</p>
+								    			<h2>16-2-28 </h2>								    			
+								    		</li>
+								    	</ul>
+								    </div>
+								    
+								    <div class="mui-slider-item">
+								    	<ul>
+								    		<li>
+								    			<h1>为社会提供最好的服务，从中求得公司真正意...</h1>
+								    			<p>云南云百草生物技术有限公司 以生物学和中医中药为理论基础，</p>
+								    			<h2>16-2-28 </h2>
+								    			
+								    			<h1>为社会提供最好的服务，从中求得公司真正意...</h1>
+								    			<p>云南云百草生物技术有限公司 以生物学和中医中药为理论基础，</p>
+								    			<h2>16-2-28 </h2>								    			
+								    		</li>
+								    	</ul>
+								    </div>
+								    
+								    <!--支持循环，需要重复图片节点-->
+								    <div class="mui-slider-item mui-slider-item-duplicate">
+								    	<ul>
+								    		<li>
+								    			<h1>为社会提供最好的服务，从中求得公司真正意...</h1>
+								    			<p>云南云百草生物技术有限公司 以生物学和中医中药为理论基础，</p>
+								    			<h2>16-2-28 </h2>
+								    			
+								    			<h1>为社会提供最好的服务，从中求得公司真正意...</h1>
+								    			<p>云南云百草生物技术有限公司 以生物学和中医中药为理论基础，</p>
+								    			<h2>16-2-28 </h2>								    			
+								    		</li>
+								    	</ul>
+								    	
+								    </div>
+								  </div>
+								</div>
+								<script type="text/javascript">
+									var gallery = mui('#secban2');
+										gallery.slider({
+										  interval:3000//自动轮播周期，若为0则不自动播放，默认为0；
+										});
+								</script>
+							</div>
+						</div>
+						<div class="section4">
+							<div class="in-content">
+								<div class="sec4-header mui-clearfix">
+									<img src="images/Star-product.png" alt="" style="width: 43%;"/>
+									<a href="" class="mui-pull-right" style="width: 45%;">查看更多新闻动态></a>
+								</div>
+								<div class="mui-slider" id="secban4">
+								  <div class="mui-slider-group mui-slider-loop">
+								    <!--支持循环，需要重复图片节点-->
+								    <div class="mui-slider-item mui-slider-item-duplicate">
+								    	<ul>
+								    		<li>
+								    			2								    			
+								    		</li>
+								    		<li>
+								    			2								    			
+								    		</li>
+								    		<li>
+								    			2								    			
+								    		</li>
+								    		<li>
+								    			2								    			
+								    		</li>
+								    	</ul>
+								    	
+								    </div>
+								    <div class="mui-slider-item">
+								    	<ul>
+								    		<li>
+								    			1								    			
+								    		</li>
+								    		<li>
+								    			1								    			
+								    		</li>
+								    		<li>
+								    			1								    			
+								    		</li>
+								    		<li>
+								    			1								    			
+								    		</li>
+								    		<li>
+								    			1								    			
+								    		</li>
+								    	</ul>
+								    </div>
+								    
+								    <div class="mui-slider-item">
+								    	<ul>
+								    		<li>
+								    			2							    			
+								    		</li>
+								    	</ul>
+								    </div>
+								    
+								    <!--支持循环，需要重复图片节点-->
+								    <div class="mui-slider-item mui-slider-item-duplicate">
+								    	<ul>
+								    		<li>
+								    			1								    			
+								    		</li>
+								    	</ul>
+								    	
+								    </div>
+								  </div>
+								</div>
+								
+							</div>
+						</div>
 					</div>
 				</div>
 
